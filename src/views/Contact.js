@@ -14,7 +14,7 @@ const Contact = () => {
     const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="container" id="about">
+    <div className="container" id="contact">
       <section>
         <Row className="align-items-center justify-content-center py-5">
           <Col lg="5" md="12" xs="12" sm="12">
