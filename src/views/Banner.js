@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'reactstrap'
 import Image3 from "../assets/images/image4.gif"
+import TextLoop from "react-text-loop";
 
 const Banner = () => {
     return (
@@ -9,6 +10,14 @@ const Banner = () => {
           <Row className="d-flex justify-content-between align-items-center">
             <Col lg="6" md="7" className="ps-0 pe-sm-5">
               <h2 className="mb-4 mb-lg-1">Hi, I Am Naveen</h2>
+              <h4 className="mb-4 mb-lg-5">
+                and I am a{" "}
+                <TextLoop>
+                  <span className="looptext">Full stack developer</span>
+                  <span className="looptext">Mern stack developer</span>
+                  <span className="looptext">Javascript developer</span>
+                </TextLoop>
+              </h4>
               <p className="text-secondary ff-light">
                 An Aspiring WEB DEVELOPER An Aspiring WEB DEVELOPER An Aspiring
                 WEB DEVELOPER An Aspiring WEB DEVELOPER An Aspiring WEB
